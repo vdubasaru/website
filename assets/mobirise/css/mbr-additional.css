@@ -463,7 +463,7 @@ h6,
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #643ba4!important;
+  color: #671cdf!important;
 }
 #menu-0.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
@@ -474,6 +474,9 @@ h6,
 #menu-0 .close-icon::before,
 #menu-0 .close-icon::after {
   background-color: #7e9b9f;
+}
+#form1-c .form-control-label {
+  color: #232323;
 }
 #menu-3 .hide-buttons .nav-btn {
   display: none !important;

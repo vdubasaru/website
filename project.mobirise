@@ -312,7 +312,7 @@
             "showButtons": true
           },
           "title": "<span style=\"line-height: 1.1;\">Professional Arhitectural and Civil Engineering Design Services</span><br>",
-          "text": "<br>We empower your business with enterprise-level outsourcing opportunities, access to a large pool of skills and c<span style=\"font-style: normal;\">onsiderable project cost reduction.</span><br><span style=\"font-style: normal;\"><br></span>",
+          "text": "<br><span style=\"font-style: normal;\">We empower your business with enterprise-level outsourcing opportunities, access to a large pool of skills and considerable project cost reduction.</span><br><span style=\"font-style: normal;\"><br></span><span style=\"font-style: normal;\"><br></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#form1-c\" data-toolbar=\"-mbrBtnMove\">GET A QUOTE</a> ",
           "_styles": {
             ".mbr-section-title": {

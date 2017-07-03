@@ -111,7 +111,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
@@ -166,7 +166,7 @@
             "showText": true,
             "showButton": false
           },
-          "title": "Architecural Services",
+          "title": "Architectural Services",
           "text": "<p>We provide extensive services in Architecture</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
@@ -219,13 +219,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#deaa05"
+              "background": "#ff9f3a"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#fac10d!important"
+              "background": "#ffb15e!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#fac51c"
+              "background": "#ffb86d"
             },
             ".bg-color.transparent .link": {
               "color": "#000000",
@@ -257,7 +257,7 @@
           "_name": "menu",
           "_anchor": "menu-g",
           "_params": {
-            "bgColor": "#fac51c",
+            "bgColor": "#ffb86d",
             "fontSize": "0.95",
             "fontName": {},
             "fontColor": "#000000",
@@ -296,7 +296,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/kevin-young-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/main-picture-2000x1333.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -311,9 +311,9 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "Professional Arhitectural and Civil Engineering Design Services",
-          "text": "<br><span style=\"font-style: normal;\">We empower companies to grow their businesses with our Architectural and Civil Engineering solutions. We provide construction consultancies and design firms with on-demand design services.</span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#form1-c\" data-toolbar=\"-mbrBtnMove\">GET A QUOTE</a> ",
+          "title": "<span style=\"line-height: 1.1;\">Professional Arhitectural and Civil Engineering Design Services</span><br>",
+          "text": "<br>We empower your business with enterprise-level outsourcing opportunities, access to a large pool of skills and c<span style=\"font-style: normal;\">onsiderable project cost reduction.</span><br><span style=\"font-style: normal;\"><br></span>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#form1-c\" data-toolbar=\"-mbrBtnMove\">GET A QUOTE</a> ",
           "_styles": {
             ".mbr-section-title": {
               "color": "#000000",
@@ -322,7 +322,8 @@
             ".mbr-section-lead": {
               "color": "#000000",
               "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "23px"
             }
           }
         },
@@ -389,7 +390,7 @@
           "title1": "Architectural Services",
           "subtitle1": "",
           "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"Services_Architecture.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"Services_Architecture.html\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/structural-600x400.jpg",
@@ -405,7 +406,7 @@
           "title2": "Structural Engineering Services",
           "subtitle2": "",
           "caption2": "",
-          "button2": "<a data-app-btn=\"true\" href=\"Services_Structural.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"Services_Structural.html\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
           "media3": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/geotech-600x400.jpg",
@@ -421,7 +422,7 @@
           "title3": "Geotechnical Engineering Services",
           "subtitle3": "",
           "caption3": "",
-          "button3": "<a data-app-btn=\"true\" href=\"Services_Geotechnics.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"Services_Geotechnics.html\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
           "media4": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/cad-edit-600x400.jpg",
@@ -437,7 +438,7 @@
           "title4": "CAD Services",
           "subtitle4": "",
           "caption4": "",
-          "button4": "<a data-app-btn=\"true\" href=\"Services_CAD.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"Services_CAD.html\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
@@ -666,38 +667,12 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "_styles": {
             ".form-control-label": {
               "color": "#232323"
             }
           }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#232323"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-f",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1328.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Corbelium/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a>     <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company-beta/18101928\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
         },
         {
           "_tags": [
@@ -845,7 +820,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
@@ -1004,7 +979,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
@@ -1163,7 +1138,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
